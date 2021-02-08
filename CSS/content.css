@@ -1,0 +1,25 @@
+/* 搜索模块 */
+.search-index{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 44px;
+  max-width: 540px;
+  min-width: 320px;
+  /* 固定盒子自身的宽度 */
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  background-color: pink;
+  display: flex;
+}
+
+.search-input{
+  flex:1;
+}
+.person-information{
+  height: 44px;
+  width: 44px;
+  background-color: rgb(106, 230, 188);
+  color: white;
+}
